@@ -1,0 +1,124 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+      /* Reset für den gesamten Körper */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Hintergrundfarbe des Body */
+    color: #333; /* Textfarbe */
+    font-family: Arial, sans-serif;
+}
+
+/* Stil für den Header */
+header {
+    background-color: #333; /* Hintergrundfarbe des Headers */
+    padding: 10px 20px; /* Innenabstand des Headers */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Stil für den Hamburger-Menu-Button */
+#menu-btn {
+    cursor: pointer;
+    color: #fff; /* Farbe des Hamburger-Icons */
+    font-size: 24px;
+}
+
+/* Stil für den Hauptcontainer */
+#container {
+    background-color: #fff; /* Hintergrundfarbe des Containers */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Arial Black", Arial, sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 20px auto; /* Abstand zum Header und zur Seite */
+    max-width: 600px; /* Maximale Breite des Containers */
+}
+
+/* Stil für Auswahlfelder */
+select {
+    padding: 8px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Stil für den Kalenderbereich */
+#calendar {
+    background-color: #f9f9f9; /* Hintergrundfarbe des Kalenderbereichs */
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Stil für den Bestätigungsbutton */
+#confirmButton {
+    background-color: #4CAF50; /* Hintergrundfarbe des Bestätigungsbuttons */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    display: block; /* Anzeigen des Buttons als Blockelement */
+    margin: 0 auto; /* Zentrieren des Buttons */
+}
+
+/* Hovern über den Bestätigungsbutton */
+#confirmButton:hover {
+    background-color: #45a049;
+}

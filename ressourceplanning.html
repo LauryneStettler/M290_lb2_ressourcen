@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ressourcenplanung</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+
+
+<div id="container">
+  <h2>Ressourcenplanung</h2>
+
+  <div>
+    <label for="category">Category:</label>
+    <select id="category" onchange="updateResources()">
+      <option value="Please Select">Please Select</option>
+      <option value="Camera">Camera</option>
+      <option value="Lighting">Lighting</option>
+      <option value="Audio - Accessory">Audio - Accessory</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="resources">Ressourcen:</label>
+    <select id="resources">
+      <option value="Please Select">Please Select</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="place">Place:</label>
+    <select id="place">
+      <option value="Please Select">Please Select</option>
+      <option value="BZZ Horgen">BZZ Horgen</option>
+      <option value="BZZ Stäfa">BZZ Stäfa</option>
+      <option value="BZZ Oberdorf">BZZ Oberdorf</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="reservation">Reservation Date:</label>
+    <input type="date" id="reservation" />
+  </div>
+
+  <div id="calendar">
+    <!-- Hier kannst du einen Kalender integrieren, je nach Bedarf -->
+  </div>
+</div>
+
+<button id="confirmButton" onclick="confirmSelection()">Bestätigen</button>
+
+<script src="ressourceplanning.js"></script>
+</body>
+</html>
